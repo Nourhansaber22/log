@@ -1,0 +1,45 @@
+.bg-pher{
+ background-color: #212529;
+}
+.bg-pher-light{
+    background-color: #24353f;
+}
+.text-pher{
+        color: #17a2b8;
+}
+.w-65{
+    width: 65%;
+}
+.w-90{
+    width: 93%;
+   
+}
+
+.w-98{
+    width: 98%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.text-green{
+    color: green;
+}
+
+
+.h-30{
+    height: 30%;
+}
+
+.psition-logo{
+    position: relative;
+    left: 10%;
+    top: 0;
+}
+
+.psition-btn{
+    position: relative;
+    right: 8%;
+    top: 0;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>singUp</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-pher vh-100 pt-5">
+        <div class="w-65 text-center mx-auto bg-pher-light  ">
+            <h1 class="text-pher pt-5">Smart Login System</h1>
+
+            <input oninput="validationEmail()" id="emailInput" class="form-control w-90 mx-auto my-3 " type="email"
+                placeholder="Enter your email" aria-label="default input example">
+            <p id="mesEmail" class="text-danger d-none">email is invalid</p>
+            <input oninput="validationPass()" id="passInput" class="form-control w-90 mx-auto my-3 " type="password"
+                placeholder="Enter your password" aria-label="default input example">
+            <p id="mesPass" class="text-danger d-none">password is weak <br> Enter password strong </p>
+            <p id="mesSuccess" class="text-green d-none">Success</p>
+            <p id="mesFalid" class="text-danger d-none">Not Success</p>
+            <button onclick="login()" class="btn btn-outline-info w-90 mx-auto mt-3  ">Login</button>
+            <div class=" p-5">
+                <span class="p text-light pt-3">Don’t have an account?</span>
+                <a href="login.html">Sing Up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
